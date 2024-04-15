@@ -14,6 +14,16 @@
   height: 100vh;
 }
 
+.footer { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 10;
+  width: 100%;
+  background-color: rgb(177, 197, 0);
+  color: rgb(23, 56, 2);
+  text-align: center;
+}
 .responsive {
   width: 30%;
   height: auto;
@@ -64,17 +74,6 @@ body, html {
   color: white;
 }
 
-.accordion {
-  background-color: #D4E79E;
-  color: rgb(252, 252, 252);
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
 
 .active, .accordion:hover {
   background-color: #B8C480;
@@ -120,12 +119,11 @@ position: relative;
   background-color: #289b05;
   color: #ffffff;
   cursor: pointer;
-  padding: 18px;
   width: 100%;
   text-align: center;
   border: none;
   outline: none;
-  transition: 0.4s;
+  transition: 0.9s;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
